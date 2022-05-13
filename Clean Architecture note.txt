@@ -1,0 +1,10 @@
+Clean  Architecture 
+- Core 
+	อิสระต่อการเปลี่ยนแปลง เช่น UI (Presentation Layer), Persistence, Database, External Thrid Party เป็นต้น
+	มีหน้าที่เก็บพวก entities (business domain entities) และ  use cases (business rules) หรือเรียกสิ่งเหล่านี้ว่า business and application layers
+	+ entities 
+	+ use cases เก็บ business logic layer เขียน service ที่นี่
+- Interface (API, MVC)
+	ทำหน้าที่เป็น communicator คนสื่อสารระหว่าง external source เช่น database, file system, thrid party service และ  convert data เพื่อ Core (use cases, business logic)
+- External Interface 
+	presentation layer
