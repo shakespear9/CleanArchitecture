@@ -12,4 +12,9 @@ Clean  Architecture
 	presentation layer
 
 ref : 
-https://www.c-sharpcorner.com/article/clean-architecture-with-net-6-using-entity-framework/
+clean architecture
+ - https://www.c-sharpcorner.com/article/clean-architecture-with-net-6-using-entity-framework/
+find instance of database engine
+ - https://docs.microsoft.com/en-us/sql/relational-databases/lesson-1-connecting-to-the-database-engine?view=sql-server-ver15
+scaffold database to entity
+ - https://geidtiphong.medium.com/%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87-entities-%E0%B8%87%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B9%86-%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-entity-framework-1236ac41a593
