@@ -1,13 +1,13 @@
 Clean  Architecture 
 - Core 
-	อิสระต่อการเปลี่ยนแปลง เช่น UI (Presentation Layer), Persistence, Database, External Thrid Party เป็นต้น
-	มีหน้าที่เก็บพวก entities (business domain entities) และ  use cases (business rules) หรือเรียกสิ่งเหล่านี้ว่า business and application layers
-	+ entities ที่ Domain Library Project
-	+ use cases เก็บ business logic layer เช่น service, interfaces, domain validations, error handling ที่ Application Library Project
-	+ Domain Library ต้องไม่มี reference 
-	+ Application Library ต้องมี reference แค่ Domain Library
+	เธญเธดเธชเธฃเธฐเธ•เนเธญเธเธฒเธฃเน€เธเธฅเธตเนเธขเธเนเธเธฅเธ เน€เธเนเธ UI (Presentation Layer), Persistence, Database, External Thrid Party เน€เธเนเธเธ•เนเธ
+	เธกเธตเธซเธเนเธฒเธ—เธตเนเน€เธเนเธเธเธงเธ entities (business domain entities) เนเธฅเธฐ  use cases (business rules) เธซเธฃเธทเธญเน€เธฃเธตเธขเธเธชเธดเนเธเน€เธซเธฅเนเธฒเธเธตเนเธงเนเธฒ business and application layers
+	+ entities เธ—เธตเน Domain Library Project
+	+ use cases เน€เธเนเธ business logic layer เน€เธเนเธ service, interfaces, domain validations, error handling เธ—เธตเน Application Library Project
+	+ Domain Library เธ•เนเธญเธเนเธกเนเธกเธต reference 
+	+ Application Library เธ•เนเธญเธเธกเธต reference เนเธเน Domain Library
 - Interface (API, MVC)
-	ทำหน้าที่เป็น communicator คนสื่อสารระหว่าง external source เช่น database, file system, thrid party service และ  convert data เพื่อ Core (use cases, business logic)
+	เธ—เธณเธซเธเนเธฒเธ—เธตเนเน€เธเนเธ communicator เธเธเธชเธทเนเธญเธชเธฒเธฃเธฃเธฐเธซเธงเนเธฒเธ external source เน€เธเนเธ database, file system, thrid party service เนเธฅเธฐ  convert data เน€เธเธทเนเธญ Core (use cases, business logic)
 - External Interface 
 	presentation layer
 
